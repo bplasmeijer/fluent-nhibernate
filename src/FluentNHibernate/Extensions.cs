@@ -18,12 +18,12 @@ namespace FluentNHibernate
 
             return configuration;
         }
-
+           
         public static Configuration AddAutoMappings(this Configuration configuration, AutoPersistenceModel model)
         {
             model.Configure(configuration);
 
-            return configuration;
+            return configuration;   
         }
     }
 }
